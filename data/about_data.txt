@@ -1,0 +1,25 @@
+Dataset: Brain Tumor MRI Dataset
+Source: https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
+
+Description:
+This dataset consists of grayscale MRI images of human brains categorized into four classes:
+1. glioma        - 300 images
+2. meningioma    - 306 images
+3. notumor       - 405 images
+4. pituitary     - 300 images
+
+Image Format: JPG
+Color Format: Grayscale
+Typical Image Size: Varies (standardized to 150x150 during preprocessing)
+
+Folder Structure:
+- Each class is stored in its own subfolder under both `Training` and `Testing` directories.
+- Example path: `Training/glioma/xxx.jpg`
+
+Notes:
+- The "notumor" class includes healthy brain images.
+- The dataset combines images from Figshare, SARTAJ, and Br35H sources.
+- Glioma images from SARTAJ were removed due to mislabeling concerns and replaced with Figshare images.
+
+Use:
+Designed for deep learning tasks such as image classification using Convolutional Neural Networks (CNNs) to detect and classify brain tumors.
